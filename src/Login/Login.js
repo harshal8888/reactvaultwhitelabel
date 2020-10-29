@@ -12,7 +12,7 @@ class Login extends Component {
                      <div class="col" className="Leftpart" >
                                1 of 3
                      </div>
-                     <div class="col-8" className="Rightpart">
+                     <div class="col-7" className="Rightpart">
                              2 of 3 (wider)
                         <div class="container"  className="Innerpart">
                             <div class="row" className="" >

@@ -7,7 +7,7 @@ class Verifyotp extends Component {
                 <div class="container"  >
                     <div class="row">
                     
-                        <div class="col-8" className="Leftpart">
+                        <div class="col-7" className="Leftpart">
                         
                                 2 of 3 (wider)
                             
