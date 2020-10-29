@@ -7,20 +7,6 @@ class Login extends Component {
     render() {
         return (
             <div>
-                 {/* <div class="container-fluid"> */}
-                 
-                {/* <div class="row" > */}
-           
-                 {/* <div class="col-sm-4" style={{backgroundColor: "red"}}  >.col-sm-4</div> */}
-                {/* <div class="col-sm-8" style={{backgroundColor: "yellow"}}>.col-sm-8</div>  */}
-                  {/* <div class="col-md-4"  className={styles.Leftpart}>.col-sm-4</div> */}
-                {/* <div class="col-md-8"   className={styles.Rightpart} >.col-sm-8</div>  */}
-                {/* <div class="col-md-4"className="Leftpart"  >.col-sm-4</div> */}
-                {/* <div class="col-md-8" className="Rightpart">.col-sm-8</div> */}
-                {/* </div> */}
-
-                
-          
             <div class="container"  >
                 <div class="row">
                      <div class="col" className="Leftpart" >
@@ -29,8 +15,13 @@ class Login extends Component {
                      <div class="col-8" className="Rightpart">
                              2 of 3 (wider)
                         <div class="container"  className="Innerpart">
-                            <div class="row" className="">                              
+                            <div class="row" className="" >
                                 {/* <div class="col"> */}
+                                <h4 style={{marginRight: "50px",marginTop:"50px"}}>Login to your Vault Business</h4> 
+                                <h4 style={{marginRight: "270px"}}>account</h4>   
+                                <p style={{marginLeft: "65px"}}>Loren Ipsum Is simply dummy text of the printing and types </p>
+                                <p style={{margin: "-20px",marginRight: "110px"}}>industry.Loren Ipsum has been.</p>                           
+                                
                                         <input
                                         className="Login_form"
                                         type="email"
@@ -47,7 +38,7 @@ class Login extends Component {
                                         required
                                             ></input>
                                             <p className="prg1"><a href="" className="fp">Forget Password ?</a></p>
-                                            {/* <Link to="/users">Forget Password ?</Link> */}
+                                           
                                         <button className="Btn">Login</button>
                                         
                                        <p className="prg">Don't have an account?<a href="" className="sp">Sign uP</a></p>

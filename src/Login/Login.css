@@ -14,14 +14,17 @@
 }
 .Innerpart{
     background-color:thistle;
-    width: 500px;
+    width: 550px;
     height: 500px;
-    margin-left: 50px;
-    /* margin-right: 50px; */
+    margin-left: 120px;
    margin-top: 50px;
+   padding: 5px;
    /* position: relative; */
    /* text-align: center; */
 
+}
+.head{
+  margin-top: 20px;
 }
 .containercenter {
     text-align: center;
@@ -30,7 +33,7 @@
     width: 350px;
     height: 40px;
     /* margin-top: 10px; */
-    margin:  220px 80px 0;
+    margin:  70px 80px 0;
     padding: 15px;
     font-size: 16px;
     font-family: "Abel", sans-serif;
