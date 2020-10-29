@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Two from './Two';
+import Login from './Login';
 ReactDOM.render(
   <React.StrictMode>
     <div>
-        <Two/>
+        <Login/>
     </div>
   </React.StrictMode>,
   document.getElementById('root')

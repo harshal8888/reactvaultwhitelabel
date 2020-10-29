@@ -1,0 +1,122 @@
+
+.Leftpart{
+    background-color:yellowgreen;
+    width: 300px;
+    height: 650px;
+}
+
+.Rightpart{
+    background-color:wheat;
+    width: 800px;
+    height: 650px;
+    text-align: center;
+
+}
+.Innerpart{
+    background-color:thistle;
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+   margin-top: 50px;
+   /* position: relative; */
+   /* text-align: center; */
+
+}
+.containercenter {
+    text-align: center;
+  }
+  .Login_form{
+    width: 350px;
+    height: 40px;
+    /* margin-top: 10px; */
+    margin:  220px 80px 0;
+    padding: 15px;
+    font-size: 16px;
+    font-family: "Abel", sans-serif;
+    color: #5e6472;
+    outline: none;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    /* transition: 0.2s linear;       */
+  }
+  .Password_form{
+    width: 350px;
+    height: 40px;
+    /* margin-top: 50px; */
+    margin:  20px 80px 0;
+    padding: 15px;
+    font-size: 16px;
+    font-family: "Abel", sans-serif;
+    color: #5e6472;
+    outline: none;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.2s linear;
+  }
+  .fp{
+    color: slateblue   ;
+    /* margin:  30px 170px 0; */
+    /* margin-top: 20px;*/
+    /* top: 10px; */
+    margin-left: 230px; 
+ 
+  }
+  .prg1{
+    margin-top: 10px;
+  }
+  .prg{
+    margin: 10px 100px 0;
+  }
+  .sp{
+    color: slateblue   ;
+    /* margin:  30px 170px 0; */
+    /* margin-top: 20px; */
+    margin-left: 5px; 
+    border-bottom: 1px solid green;
+  }
+  .Btn{
+    width: 350px;
+    height: 40px;
+    margin: 15px 80px 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: slateblue;
+   
+  }
+   /* input[class="login_form_input"] {
+    width: 240px;
+    height: 50px;
+  
+    margin-top: 1%;
+    padding: 15px;
+  
+     font-size: 16px;
+    font-family: "Abel", sans-serif;
+    color: #5e6472;
+    outline: none;
+    border: none;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+  } 
+  input[class="password_form_input"] {
+    width: 240px;
+    height: 50px;
+  
+    margin-top: 15%;
+    padding: 15px;
+  
+    font-size: 16px;
+    font-family: "Abel", sans-serif;
+    color: #5e6472;
+  
+    outline: none;
+    border: none;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+  } */
+/* 
+  .Part {
+    color:red;
+  } */
