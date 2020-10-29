@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './Verifyotp.css';
 class Verifyotp extends Component {
+
+
+
     render() {
         return (
             <div>
@@ -8,12 +11,9 @@ class Verifyotp extends Component {
                     <div class="row">
                     
                         <div class="col-sm-3 col-md-7" className="Leftpart">
-                        
                                 2 of 3 (wider)
-                              
-                              
-                            
                         </div>
+
                         <div class="col-sm-3 col-md-7" className="Rightpart" >
                         <div className="RadioTag">    
                             <input type="radio" name="radio" value="radio1" className="Radio" checked/>Sign up<br/>
@@ -26,15 +26,61 @@ class Verifyotp extends Component {
                         <div class="container"  className="Innerpart">
                                 <div class="row" className="" >
                                     <div class="col">
-                                    <h4 style={{marginRight: "50px",marginTop:"50px"}}>Login to your Vault Business</h4> 
-                                    <h4 style={{marginRight: "270px"}}>account</h4>   
-                                    <p style={{marginLeft: "65px"}}>Loren Ipsum Is simply dummy text of the printing and types </p>
-                                    <p style={{margin: "-20px",marginRight: "110px"}}>industry.Loren Ipsum has been.</p>                           
+                                    <h4 style={{marginRight: "50px",marginTop:"20px"}}>Email One Time Password Verification </h4> 
+                                    <p style={{marginLeft: "65px"}}>Enter verification code we send to<a href="" style={{marginLeft:"5px"}}>john.doe@gmail.com</a></p>        
+                            
+                                        <input
+                                        className="Login_form"
+                                        type="text"
+                                        placeholder="0"
+                                        name="otp"
+                                        required
+                                        ></input>
+
+                                        <input
+                                        className="Login_form"
+                                        type="text"
+                                        placeholder="0"
+                                        name="otp"
+                                        required
+                                        ></input>
+                                        
+                                        <input
+                                        className="Login_form"
+                                        type="text"
+                                        placeholder="0"
+                                        name="otp"
+                                        required
+                                        ></input>
+                                        
+                                        <input
+                                        className="Login_form"
+                                        type="text"
+                                        placeholder="0"
+                                        name="otp"
+                                        required
+                                        ></input>
+                                        
+                                        <input
+                                        className="Login_form"
+                                        type="text"
+                                        placeholder="0"
+                                        name="otp"
+                                        required
+                                        ></input>
+                                        
+                                        <input
+                                        className="Login_form"
+                                        type="email"
+                                        placeholder="0"
+                                        name="otp"
+                                        required
+                                        ></input>
+                                                
+                                        <p className="prg1">Resend<a href="" className="fp">Email verification code</a></p>
+                                            <button className="Btn1">Back</button>
                                             
-                                                <p className="prg1"><a href="" className="fp">Forget Password ?</a></p>
-                                            <button className="Btn">Login</button>
-                                       
-                                        <p className="prg">Don't have an account?<a href="" className="sp">Sign uP</a></p>
+                                            <button className="Btn2">Verify</button>
                                     </div>      
                                 </div>
                             </div>
