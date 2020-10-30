@@ -3,14 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './Login/Login';
 import Verifyotp from './Verifyotp/Verifyotp';
+import Signup from './Components/Signup';
 ReactDOM.render(
   <React.StrictMode>
     <div>
+      
         {/* <Login/> */}
-        <Verifyotp/>
+        {/* <Verifyotp/> */}
+        <Signup/>
     </div>
   </React.StrictMode>,
   document.getElementById('root')

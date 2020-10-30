@@ -1,0 +1,101 @@
+.containercenter
+{
+    float: none;
+    text-align: center;
+}
+.Rightpart{
+    background-color:yellowgreen;
+    width: 400px;
+    height: 650px;
+    text-align: left;
+}
+
+
+
+.Leftpart{
+    background-color:wheat;
+    width: 700px;
+    height: 650px;
+    /* text-align: center; */
+
+}
+.Innerpart{
+    background-color:thistle;
+    width: 650px;
+    height: 300px;
+    margin-left: -630px;
+   margin-top: -250px;
+   padding: 5px;
+   border-radius: 10px 10px 10px 10px;
+   /* position: relative; */
+   /* text-align: center; */
+
+}
+.head{
+  margin-top: 20px;
+}
+.containercenter {
+    text-align: center;
+  }
+  .RadioTag{
+    margin:200px 30px 0px
+  }
+  .Radio{
+      /* margin-right: 10px; */
+      /* margin-left: 50px; */
+      margin:20px 30px 0px;
+      /* padding: 30px; */
+
+      
+  }
+  
+  .Login_form{
+    width: 50px;
+    height: 40px;
+    /* margin-top: 10px; */
+    margin:  5px 10px 0;
+    font-size: 16px;
+    font-family: "Abel", sans-serif;
+    color: #afbbd6;
+    /* outline: none; */
+    /* border: none; */
+    border-radius: 5px 5px 5px 5px;
+    /* transition: 0.2s linear;       */
+  }
+  
+  .fp{
+    color: slateblue   ;
+   
+    margin-left: 10px; 
+ 
+  }
+  .prg1{
+    margin-top: 10px;
+    margin-left: 120px;
+  }
+  .prg{
+    margin: 10px 100px 0;
+  }
+  .sp{
+    color: slateblue   ;
+    /* margin:  30px 170px 0; */
+    /* margin-top: 20px; */
+    margin-left: 5px; 
+    border-bottom: 1px solid green;
+  }
+  .Btn1{
+    width: 100px;
+    height: 40px;
+    margin: 0px 20px 0;
+    border-radius: 5px 5px 5px 5px;
+    background-color: slateblue;
+   
+  }
+  .Btn2{
+    width: 100px;
+    height: 40px;
+    margin-left: 290px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: slateblue;
+   
+  }
