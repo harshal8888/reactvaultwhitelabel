@@ -6,9 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './Login/Login';
 import Verifyotp from './Verifyotp/Verifyotp';
-import Signup from './Components/Signup';
+import Signup from './Components/signup/Signup';
 ReactDOM.render(
   <React.StrictMode>
+
     <div>
       
         {/* <Login/> */}

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import { Col } from 'react-bootstrap';
 import './Signup.css';
+import './Floatlabel.css';
 class Signup extends Component {
   
 
@@ -8,87 +10,85 @@ class Signup extends Component {
             <div className='Signup'>
                 <div class="containercenter"  >
                     <div class="row">
-                    
                         <div class="col-sm-7 col-md-7 col-lg-7" className="Leftpart">
-                                2 of 3 (wider)
-                                <div class="container"  className="Innerpart">
-                                <div class="row" className="" >
-                                    <div class="col">
-                                    <h4 style={{marginRight: "50px",marginTop:"20px"}}>Email One Time Password Verification </h4> 
-                                    <p style={{marginLeft: "65px"}}>Enter verification code we send to<a href="" style={{marginLeft:"5px"}}>john.doe@gmail.com</a></p>        
-                            
-                                        <input
-                                        className="Login_form"
-                                        type="text"
-                                        placeholder="0"
-                                        name="otp"
-                                        required
-                                        ></input>
-
-                                        <input
-                                        className="Login_form"
-                                        type="text"
-                                        placeholder="0"
-                                        name="otp"
-                                        required
-                                        ></input>
-                                        
-                                        <input
-                                        className="Login_form"
-                                        type="text"
-                                        placeholder="0"
-                                        name="otp"
-                                        required
-                                        ></input>
-                                        
-                                        <input
-                                        className="Login_form"
-                                        type="text"
-                                        placeholder="0"
-                                        name="otp"
-                                        required
-                                        ></input>
-                                        
-                                        <input
-                                        className="Login_form"
-                                        type="text"
-                                        placeholder="0"
-                                        name="otp"
-                                        required
-                                        ></input>
-                                        
-                                        <input
-                                        className="Login_form"
-                                        type="email"
-                                        placeholder="0"
-                                        name="otp"
-                                        required
-                                        ></input>
-                                                
-                                        <p className="prg1">Resend<a href="" className="fp">Email verification code</a></p>
-                                            <button className="Btn1">Back</button>
-                                            
-                                            <button className="Btn2">Verify</button>
-                                    </div>      
+                        <div class="container fullwidth"  className="Innerpart">
+                        <div className="row ">
+                            <div class="col-md-12">
+                                <form className="go-bottom">
+                                <div class="form-group ">
+                                <div className="row">
+                                    <div className="col-md-12 heading">
+                                        <h2>Sign up to your Vault Business Account
+                                        </h2>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                                <div className="row">
+                                    <div className="col-md-12 smalltext">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and types ndustry. Lorem Ipsum has been.</p>
+                                    </div>
+                                </div>
+                                <div className="form-group row">
+                                    <div className="col-md-6 col-xs-6">
+                                    <div class="input-group">
+                                        <input type="text" required></input>
+                                        <span class="highlight"></span>
+                                        <label>Email Address</label>
+                                        
+                                      
+                                     
+                                        
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-xl-6">
+                                        <input className="form-control form-control-lg" type="text" id="refcode" placeholder="Referral Code"></input>
+                                    </div>
 
-                        <div class="col-sm-3 col-md-3" className="Rightpart" >
-                        <div className="RadioTag">    
-                            <input type="radio" name="radio" value="radio1" className="Radio" checked/>Sign up<br/>
-                            <input type="radio" name="radio" value="radio2" className="Radio"/>personal Details and Business Details<br/>
-                            <input type="radio" name="radio" value="radio3" className="Radio"/>Upload Comapny Documents<br/>
-                            <input type="radio" name="radio" value="radio4" className="Radio"/>Set password<br/>
-                            <input type="radio" name="radio" value="radio5" className="Radio"/>Select Membership Plan<br/>
-                            <input type="radio" name="radio" value="radio6" className="Radio"/>Card details
-                        </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-12 smalltext">
+                                    <p>Already have an account? <a href="" >Login</a></p>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <h1>
+                                    </h1>
 
+                                </div>
+                                <div className="  formfooter ">
+                                <div className="row">
+                                    <div className="col-md-6 col-lg-6">
+                                    <button className="btn1">Back</button>
+
+                                    </div>
+                                    <div className="col-md-6  col-lg-6 ">
+                                    <button type="button" class="btn2">Primary
+                                        <i class='far fa-arrow-alt-circle-right'></i>
+                                    </button>
+                                    </div>
+                                </div>
+
+                                </div>
+
+                                </div>
+                                </form>
+                            </div>      
                         </div>
-                     
+                    </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3" className="Rightpart" >
+                    <div className="RadioTag radiobox">    
+                        <input type="radio" name="radio" value="radio1" className="Radio" checked/>Sign up<br/>
+                        <input type="radio" name="radio" value="radio2" className="Radio"/>personal Details and Business Details<br/>
+                        <input type="radio" name="radio" value="radio3" className="Radio"/>Upload Comapny Documents<br/>
+                        <input type="radio" name="radio" value="radio4" className="Radio"/>Set password<br/>
+                        <input type="radio" name="radio" value="radio5" className="Radio"/>Select Membership Plan<br/>
+                        <input type="radio" name="radio" value="radio6" className="Radio"/>Card details
+                    </div>
 
                     </div>
+                    </div>
                 </div>
+
                 
             </div>
         );
